@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import "base";
+
+.container-fluid{
+
+    .product_path{
+            margin-top: 25px;
+        span{
+            font-size: 12px;
+            font-family: $home_font;
+        }
+
+        h3{
+            margin-top: 18px;
+            font-size: 18px;
+        }
+    }
+
+    .product_slider{
+
+        .thumb{
+            list-style-type: none;
+            float: left;
+            
+            li{
+                img{
+                    height: 60px;
+                }
+            }
+        }
+
+        .imgbox{
+            float: right;
+
+            img{
+                height: auto;
+            }
+        }
+    }
+
+}
