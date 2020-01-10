@@ -96,5 +96,14 @@
             font-size: 15px;
             text-transform: $transform;
         }
+
+        .product_preview{
+            .product{
+                width: 200px;
+                height: 250px;
+                border: 1px solid $black;
+                float: left;
+            }
+        }
     }
 }
