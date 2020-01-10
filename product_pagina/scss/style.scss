@@ -14,28 +14,87 @@
             margin-top: 18px;
             font-size: 18px;
         }
+
     }
 
-    .product_slider{
-
-        .thumb{
-            list-style-type: none;
-            float: left;
-            
-            li{
-                img{
-                    height: 60px;
-                }
-            }
+    .product_information{
+        margin-top: 40px;
+            h3{
+                font-family: $home_font;
+                font-size: 10px;
+                color: $gray;
+                text-transform: $transform;
+                text-align: left;
         }
 
-        .imgbox{
+        .price{
+            font-family: $home_font;
+            font-size: 20px;
+            color: $black;
+            text-transform: $transform;
+            text-align: left;
+        }
+    
+
+    .select_product{
+        margin-top: 56px;
+        select{
+            height: 53px;
+            border-radius: 10px;
+        }
+
+    }
+    
+    .border{
+        margin-top: 15px;
+    }
+
+    .size_section{
+        h4{
+            font-family: $home_font;
+            font-size: 15px;
+            text-transform: $transform;
+            margin-top: 20px;
+        }
+
+        span{
+            margin-top: 10px;
+        }
+
+        select{
             float: right;
-
-            img{
-                height: 350px;
-            }
+            height: 35px;
+            border-radius: 8px;
         }
     }
 
+    .add_to_card{
+        background-color:green;
+        border: none;
+        margin-top: 48px;
+        height: 55px;
+        font-family: $home_font;
+        font-size: 15px;
+        color: $white;
+        text-transform: $transform;
+        border-radius: 5px;
+    }
+
+    .available{
+        display: block;
+        margin-top: 145px;
+        font-size: 10px;
+        color: $gray;
+    }
+    
+    }
+
+    .show_sizes{
+        h3{
+            margin-top: 50px;
+            font-family: $home_font;
+            font-size: 15px;
+            text-transform: $transform;
+        }
+    }
 }
