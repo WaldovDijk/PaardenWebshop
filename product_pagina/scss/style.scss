@@ -103,7 +103,25 @@
                 height: 250px;
                 border: 1px solid $black;
                 float: left;
+
+                h3{
+                    margin-top: 0px;
+                    text-align: center;
+                    color: $black;
+                    font-weight: bold;
+                }
+
+                span{
+                    text-align: center;
+                    display: block;
+                }
             }
+
         }
+    }
+
+    .socialmedia_btn{
+        margin: 0 auto;
+        margin-top: 50px;
     }
 }
