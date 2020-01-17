@@ -1,63 +1,130 @@
 <div class="container-fluid">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-10 m-auto">
-                    <!-- Row banner -->
-                    <div class="row p-0">
-                        <div class="col-md-12 p-0">
-                            <img src="img/banner.png" alt="banner horse" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- einde row banner -->
-                    <!-- begin nav products -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul class="text-center list-inline h3 list-unstyled">
-                                <li class="text-bold text-uppercase d-inline-block products-active"><a
-                                        class="text-dark text-decoration-none" href="#">products</a></li>
-                                <li class="text-bold d-inline-block text-uppercase pl-3"><a
-                                        class="text-decoration-none text-dark" href="#">about</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <p class="text-bold h5">All products</p>
-                            <ul class="p-0">
-                                <li class="list-unstyled"><a class="text-dark" href="#">Clothing</a></li>
-                                <ul>
-                                    <li class="list-unstyled"><a class="text-dark" href="#">- T-Shirts</a></li>
-                                    <li class="list-unstyled"><a class="text-dark" href="#">- Sweaters</a></li>
-                                </ul>
-                                <li class="list-unstyled"><a class="text-dark" href="#">Posters</a></li>
-                                <li class="list-unstyled"><a class="text-dark" href="#">Stationary</a></li>
-                                <ul>
-                                    <li class="list-unstyled"><a class="text-dark" href="#">- Buttons</a></li>
-                                    <li class="list-unstyled"><a class="text-dark" href="#">- Stickers</a></li>
-                                    <li class="list-unstyled"><a class="text-dark" href="#">- Postcards</a></li>
-                                </ul>
-                                <li class="list-unstyled color-dark"><a class="text-dark" href="#">Giftcards</a></li>
-                            </ul>
-                        </div>
-                        <!-- product container -->
-                        <div class="col-md-10 m-auto">
-                            <!-- row 1 product -->
-                            <%- include('row') -%>
-                            <!-- einde row 1 product -->
-                            <!-- row 2 product -->
-                            <%- include('row') -%>
-                            <!-- einde row 2 product -->
-                            <!-- row 3 product -->
-                            <%- include('row') -%>
-                            <!-- einde row 3 product -->
-                            <!-- row 4 product -->
-                            <%- include('row') -%>
-                            <!-- einde row 4 product -->
-                        </div>
-                        <!-- einde product container -->
-                    </div>
-                </div>
-            </div>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-10 m-auto">
+        <!-- Row banner -->
+        <div class="row p-0">
+          <div class="col-md-12 p-0">
+            <img src="img/banner.png" alt="banner horse" class="img-fluid" />
+          </div>
         </div>
+        <!-- einde row banner -->
+        <!-- begin nav products -->
+        <div class="row">
+          <div class="col-md-2">
+            <p class="text-bold h5">All products</p>
+            <ul class="p-0">
+              <li class="list-unstyled">
+                <a class="text-dark" href="#">Clothing</a>
+              </li>
+              <ul>
+                <li class="list-unstyled">
+                  <a class="text-dark" href="#">- T-Shirts</a>
+                </li>
+                <li class="list-unstyled">
+                  <a class="text-dark" href="#">- Sweaters</a>
+                </li>
+              </ul>
+              <li class="list-unstyled">
+                <a class="text-dark" href="#">Posters</a>
+              </li>
+              <li class="list-unstyled">
+                <a class="text-dark" href="#">Stationary</a>
+              </li>
+              <ul>
+                <li class="list-unstyled">
+                  <a class="text-dark" href="#">- Buttons</a>
+                </li>
+                <li class="list-unstyled">
+                  <a class="text-dark" href="#">- Stickers</a>
+                </li>
+                <li class="list-unstyled">
+                  <a class="text-dark" href="#">- Postcards</a>
+                </li>
+              </ul>
+              <li class="list-unstyled color-dark">
+                <a class="text-dark" href="#">Giftcards</a>
+              </li>
+            </ul>
+          </div>
+          <!-- product container -->
+          <div class="col-md-10 m-auto">
+            <!-- row 1 product -->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="text-center list-inline h3 list-unstyled">
+                  <li
+                    class="text-bold text-uppercase d-inline-block products-active"
+                  >
+                    <a class="text-dark text-decoration-none" href="#"
+                      >featured</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 item-container border p-0">
+                <a class="style-type-none" href="#">
+                  <img src="img/newshirt.png" alt="tshirt" class="img-fluid" />
+                  <p class="text-center  mt-2 mb-0">
+                    Paarden merch // Horse Reality
+                  </p>
+                  <p class="text-center font-weight-bold">&euro; 44,50</p>
+                </a>
+              </div>
+              <div class="col-md-4 item-container border p-0">
+                <a class="style-type-none" href="#">
+                  <img
+                    src="img/kortingshirt.png"
+                    alt="tshirt"
+                    class="img-fluid"
+                  />
+                  <p class="text-center mb-0 mt-2">
+                    Paarden merch // Horse Reality
+                  </p>
+                  <p class="text-center font-weight-bold">&euro; 44,50</p>
+                </a>
+              </div>
+              <div class="col-md-4 item-container border p-0">
+                <a class="style-type-none" href="#">
+                  <img src="img/newshirt.png" alt="tshirt" class="img-fluid" />
+                  <p class="text-center mb-0 mt-2">
+                    Paarden merch // Horse Reality
+                  </p>
+                  <p class="text-center font-weight-bold">&euro; 44,50</p>
+                </a>
+              </div>
+            </div>
+            <!-- row 1 product -->
+            <div class="row">
+              <div class=" mt-5 col-md-12">
+                <ul class="text-center list-inline h3 list-unstyled">
+                  <li
+                    class="text-bold text-uppercase d-inline-block products-active"
+                  >
+                    <a class="text-dark text-decoration-none" href="#"
+                      >products</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <%- include('row') -%>
+            <!-- einde row 1 product -->
+            <!-- row 2 product -->
+            <%- include('row') -%>
+            <!-- einde row 2 product -->
+            <!-- row 3 product -->
+            <%- include('row') -%>
+            <!-- einde row 3 product -->
+            <!-- row 4 product -->
+            <%- include('row') -%>
+            <!-- einde row 4 product -->
+          </div>
+          <!-- einde product container -->
+        </div>
+      </div>
     </div>
+  </div>
+</div>
