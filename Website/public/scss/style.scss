@@ -1,70 +1,132 @@
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-$color-dark-blue: #081B28;
+.products-active {
+  border-bottom: 2px solid black;
+  color: black;
+}
+.item-container img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+$color-dark-blue: #081b28;
 
-.bg-dark-blue{
-    background-color: $color-dark-blue;
+.bg-dark-blue {
+  background-color: $color-dark-blue;
 }
 
 a img {
-    height: 40px;
+  height: 40px;
 }
 
-.footer{
-    height: auto;
+.footer {
+  min-height: 75px;
+  height: auto;
 }
 
-.copyright{
-    padding-top: 15px;
-    font-size: .7rem;
-    font-weight: 300;
+.footer-login {
+  min-height: 75px;
+  height: auto;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
-.float-right{
-    float: right;
-    padding-top: 10px;
+.copyright {
+  padding-top: 15px;
+  font-size: 0.7rem;
+  font-weight: 300;
 }
 
-.footer-link{
-    color: white;   
-    text-decoration: none !important;
-    font-weight: bold;
-    font-size: .8rem;
+.float-right {
+  float: right;
+  padding-top: 10px;
+}
 
-    &:hover{
-        color: #f3f3f3;
-    }
+.footer-link {
+  color: white;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 0.8rem;
+
+  &:hover {
+    color: #f3f3f3;
+  }
 }
 
 .container {
-    padding: 2rem 0rem;
-  }
-  
-  .table-image {
-    
-    thead {
-      td, th {
-        border: 0;
-        color: #666;
-        font-size: 0.8rem;
-      }
-    }
-    
-    td, th {
-      vertical-align: middle;
-      text-align: center;
-      
-      &.qty {
-        max-width: 2rem;
-      }
+  padding: 2rem 0rem;
+}
+
+.table-image {
+  thead {
+    td,
+    th {
+      border: 0;
+      color: #666;
+      font-size: 0.8rem;
     }
   }
-  
-  .price {
-    margin-left: 1rem;
+
+  td,
+  th {
+    vertical-align: middle;
+    text-align: center;
+
+    &.qty {
+      max-width: 2rem;
+    }
   }
-  
-  .modal-footer {
-    padding-top: 0rem;
-  }
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#left {
+  background-color: #f3f3f3;
+}
+
+#left h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#left h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#right {
+  background-color: white;
+}
+
+#right h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#right img {
+  width: 100px;
+}
+
+#right input {
+  width: 30px;
+}
