@@ -1,53 +1,259 @@
 * {
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
+
+.products-active {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.item-container img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
 
 .bg-dark-blue {
-  background-color: #081B28; }
-
-  body {
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  }
+  background-color: #081b28;
+}
 
 a img {
-  height: 40px; }
+  height: 40px;
+}
 
 .footer {
-  height: auto; }
+  min-height: 75px;
+  height: auto;
+}
+
+.footer-login {
+  min-height: 75px;
+  height: auto;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
 
 .copyright {
   padding-top: 15px;
-  font-size: .7rem;
-  font-weight: 300; }
+  font-size: 0.7rem;
+  font-weight: 300;
+}
 
 .float-right {
   float: right;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .footer-link {
   color: white;
   text-decoration: none !important;
   font-weight: bold;
-  font-size: .8rem; }
-  .footer-link:hover {
-    color: #f3f3f3; }
+  font-size: 0.8rem;
+}
+.footer-link:hover {
+  color: #f3f3f3;
+}
 
 .container {
-  padding: 2rem 0rem; }
+  padding: 2rem 0rem;
+}
 
-.table-image thead td, .table-image thead th {
+.table-image thead td,
+.table-image thead th {
   border: 0;
   color: #666;
-  font-size: 0.8rem; }
-.table-image td, .table-image th {
+  font-size: 0.8rem;
+}
+.table-image td,
+.table-image th {
   vertical-align: middle;
-  text-align: center; }
-  .table-image td.qty, .table-image th.qty {
-    max-width: 2rem; }
+  text-align: center;
+}
+.table-image td.qty,
+.table-image th.qty {
+  max-width: 2rem;
+}
 
 .price {
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .modal-footer {
-  padding-top: 0rem; }
+  padding-top: 0rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#left {
+  background-color: #f3f3f3;
+}
+
+#left h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#left h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#right {
+  background-color: white;
+}
+
+#right h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#right img {
+  width: 100px;
+}
+
+#right input {
+  width: 30px;
+}
+
+.container-fluid .product_path {
+  margin-top: 25px;
+}
+.container-fluid .product_path span {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.container-fluid .product_path h3 {
+  margin-top: 18px;
+  font-size: 18px;
+}
+.container-fluid .product_information {
+  margin-top: 40px;
+}
+.container-fluid .product_information h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #9999b3;
+  text-transform: uppercase;
+  text-align: left;
+}
+.container-fluid .product_information .price {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: left;
+}
+.container-fluid .product_information .select_product {
+  margin-top: 56px;
+}
+.container-fluid .product_information .select_product select {
+  height: 53px;
+  border-radius: 10px;
+}
+.container-fluid .product_information .border {
+  margin-top: 15px;
+}
+.container-fluid .product_information .size_section h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.container-fluid .product_information .size_section span {
+  margin-top: 10px;
+}
+.container-fluid .product_information .size_section select {
+  float: right;
+  height: 35px;
+  border-radius: 8px;
+}
+.container-fluid .product_information .add_to_card {
+  background-color: green;
+  border: none;
+  margin-top: 48px;
+  height: 55px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.container-fluid .product_information .available {
+  display: block;
+  margin-top: 145px;
+  font-size: 10px;
+  color: #9999b3;
+}
+.container-fluid .show_sizes h3 {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.container-fluid .show_sizes .product_preview .product {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  float: left;
+}
+.container-fluid .show_sizes .product_preview .product h3 {
+  margin-top: 0px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+.container-fluid .show_sizes .product_preview .product span {
+  text-align: center;
+  display: block;
+}
+.container-fluid .show_sizes .product_preview .product:hover {
+  border: 1px solid #000;
+}
+.container-fluid .socialmedia_btn {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container-fluid .product_large_title h3 {
+  margin-top: 75px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.container-fluid .product_large {
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+}
+.container-fluid .product_large img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container-fluid .product_large span {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-fluid .product_large:hover {
+  border: 1px solid #000;
+} /*# sourceMappingURL=style.min.css.map */

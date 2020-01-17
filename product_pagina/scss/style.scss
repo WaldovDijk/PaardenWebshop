@@ -1,100 +1,162 @@
 @charset "UTF-8";
 @import "base";
 
-.container-fluid{
-
-    .product_path{
-            margin-top: 25px;
-        span{
-            font-size: 12px;
-            font-family: $home_font;
-        }
-
-        h3{
-            margin-top: 18px;
-            font-size: 18px;
-        }
-
+.container-fluid {
+  .product_path {
+    margin-top: 25px;
+    span {
+      font-size: 12px;
+      font-family: $home_font;
     }
 
-    .product_information{
-        margin-top: 40px;
-            h3{
-                font-family: $home_font;
-                font-size: 10px;
-                color: $gray;
-                text-transform: $transform;
-                text-align: left;
-        }
-
-        .price{
-            font-family: $home_font;
-            font-size: 20px;
-            color: $black;
-            text-transform: $transform;
-            text-align: left;
-        }
-    
-
-    .select_product{
-        margin-top: 56px;
-        select{
-            height: 53px;
-            border-radius: 10px;
-        }
-
+    h3 {
+      margin-top: 18px;
+      font-size: 18px;
     }
-    
-    .border{
-        margin-top: 15px;
+  }
+
+  .product_information {
+    margin-top: 40px;
+    h3 {
+      font-family: $home_font;
+      font-size: 10px;
+      color: $gray;
+      text-transform: $transform;
+      text-align: left;
     }
 
-    .size_section{
-        h4{
-            font-family: $home_font;
-            font-size: 15px;
-            text-transform: $transform;
-            margin-top: 20px;
-        }
-
-        span{
-            margin-top: 10px;
-        }
-
-        select{
-            float: right;
-            height: 35px;
-            border-radius: 8px;
-        }
+    .price {
+      font-family: $home_font;
+      font-size: 20px;
+      color: $black;
+      text-transform: $transform;
+      text-align: left;
     }
 
-    .add_to_card{
-        background-color:green;
-        border: none;
-        margin-top: 48px;
-        height: 55px;
+    .select_product {
+      margin-top: 56px;
+      select {
+        height: 53px;
+        border-radius: 10px;
+      }
+    }
+
+    .border {
+      margin-top: 15px;
+    }
+
+    .size_section {
+      h4 {
         font-family: $home_font;
         font-size: 15px;
-        color: $white;
         text-transform: $transform;
-        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      span {
+        margin-top: 10px;
+      }
+
+      select {
+        float: right;
+        height: 35px;
+        border-radius: 8px;
+      }
     }
 
-    .available{
-        display: block;
-        margin-top: 145px;
-        font-size: 10px;
-        color: $gray;
-    }
-    
+    .add_to_card {
+      background-color: green;
+      border: none;
+      margin-top: 48px;
+      height: 55px;
+      font-family: $home_font;
+      font-size: 15px;
+      color: $white;
+      text-transform: $transform;
+      border-radius: 5px;
     }
 
-    .show_sizes{
-        h3{
-            margin-top: 50px;
-            font-family: $home_font;
-            font-size: 15px;
-            text-transform: $transform;
+    .available {
+      display: block;
+      margin-top: 145px;
+      font-size: 10px;
+      color: $gray;
+    }
+  }
+
+  .show_sizes {
+    h3 {
+      margin-top: 50px;
+      font-family: $home_font;
+      font-size: 12px;
+      text-transform: $transform;
+      letter-spacing: 2px;
+    }
+
+    .product_preview {
+      .product {
+        width: 200px;
+        height: 250px;
+        border: 1px solid #eaeaea;
+        border-radius: 2px;
+        float: left;
+
+        h3 {
+          margin-top: 0px;
+          text-align: center;
+          color: $black;
+          font-weight: bold;
+          font-size: 15px;
+          letter-spacing: 0px;
         }
+
+        span {
+          text-align: center;
+          display: block;
+        }
+      }
+
+      .product:hover {
+        border: 1px solid $black;
+      }
     }
+  }
+
+  .socialmedia_btn {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .product_large_title {
+    h3 {
+      margin-top: 75px;
+      font-family: $home_font;
+      text-transform: $transform;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .product_large {
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+
+    span {
+      font-family: $home_font;
+      text-align: center;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .product_large:hover {
+    border: 1px solid $black;
+  }
 }
