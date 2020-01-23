@@ -3,6 +3,8 @@
 #3: run: npm i
 #4: run: nodemon
 
+runt op localhost:3000
+
 
 Beschrijving Express:
 
