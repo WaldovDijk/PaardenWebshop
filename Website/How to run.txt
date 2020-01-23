@@ -1,0 +1,11 @@
+#1: cd naar deze foler in VScode
+#2: run: npm install -g nodemon
+#3: run: npm i
+#4: run: nodemon
+
+
+Beschrijving Express:
+
+Met Express kan je via de server dingen meegeven aan de html pagina.
+Ook kan je met Express je pagina in kleinere stukjes verdelen (components).
+Dit is waarom wij het in elkaar hebben gezet met Express.
